@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "439951253004",
+    "firebase_url": "https://newsyllabus-84518-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "newsyllabus-84518",
+    "storage_bucket": "newsyllabus-84518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439951253004:android:92377da27f680f9c081829",
+        "android_client_info": {
+          "package_name": "com.example.newsyllabus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439951253004-vrkp2rk7d0nqhpdrq04hkvj2ph7fhb07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrDrB7PiXddlpJ2lsssmT4yEpCI2BjEPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439951253004-vrkp2rk7d0nqhpdrq04hkvj2ph7fhb07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

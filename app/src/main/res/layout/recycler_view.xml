@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="0dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/white"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <Button
+                android:id="@+id/demc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/app_theme"
+                android:text="Read">
+
+            </Button>
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="6dp"
+                android:paddingTop="2dp"
+                android:src="@drawable/ic_baseline_home_24" />
+
+            <TextView
+                android:id="@+id/subjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_alignRight="@id/one"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="-479dp"
+                android:layout_marginBottom="47dp"
+                android:layout_toEndOf="@+id/one"
+                android:paddingLeft="15dp"
+                android:text="Diffrencial Equation And Multivariable Calculus"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:textStyle="italic"
+                android:ellipsize="end"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
